@@ -1,0 +1,39 @@
+body{
+
+    box-sizing: border-box;
+    padding: 0;
+    
+
+}
+
+
+#FormName{
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+#quiz{
+
+
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+
+
+}
+
+#result{
+
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+
+

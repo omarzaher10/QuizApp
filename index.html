@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QuizApp</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    </head>
+
+    <body>
+
+        <div id="FormName" class="p-5 bg-light shadow-lg rounded-5">
+
+            <div class="content text-center">
+
+                <h1 class="text-center mb-5">QuizApp</h1>
+                <input type="text" name="text" id="UserName" class="form-control mb-4" placeholder="Enter Your Name">
+                <button class="btn btn-success userBtn">Submit</button>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div id="quiz" class="d-none p-5 bg-light shadow-lg rounded-5 text-center">
+
+            <h3 class="text-center"> Welcome <span id="userInput"></span></h3>
+
+
+            <p id="quest" class="text-center mb-5"></p>
+            
+
+            <div class="radio d-flex flex-wrap">
+
+                <div class="w-50">
+                    <input type="radio" name="answer" value="noun">
+                    <span>noun</span>
+                </div>
+
+                <div class="w-50">
+                    <input type="radio" name="answer" value="adjective">
+                    <span>adjective</span>
+                </div>
+
+                <div class="w-50">
+                    <input type="radio" name="answer" value="verb">
+                    <span>verb</span>
+                </div>
+
+
+                <div class="w-50">
+                    <input type="radio" name="answer" value="adverb">
+                    <span>adverb</span>
+                </div>
+
+
+
+            </div>
+
+
+            <button class="btn btn-primary mt-4" id="next">next</button>
+
+
+
+        </div>
+
+
+
+        <div id="result" class="d-none p-5 bg-light shadow-lg rounded-5 text-center">
+
+            <p>congratulations</p>
+
+            <p>your Score is <span id="number"></span>/4</p>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="js/index.js"></script>
+
+
+
+
+    </body>
+
+</html>
